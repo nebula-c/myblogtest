@@ -6,7 +6,6 @@ permalink: /posts/
 
 태그로 보기 (View with Tag) : [Link](/tags/)
 
-{{ sites.post }}
 
 <ul>
   {% for post in site.posts %}
