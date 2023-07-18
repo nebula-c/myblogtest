@@ -10,6 +10,7 @@ permalink: /blog/
 <ul>
   {% for blog in site.blog %}
     <li>
+      test text
       <a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a>
     </li>
   {% endfor %}
