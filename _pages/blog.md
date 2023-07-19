@@ -9,7 +9,10 @@ permalink: /blog/
 <ul>
   {% for posts in site.posts %}
     <li>
-      {{ post.categories }}
+      {{ post.title }}
+      {% if post.categories contains "blog" %}
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
