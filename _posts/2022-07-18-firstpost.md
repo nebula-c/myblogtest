@@ -2,11 +2,14 @@
 layout: single
 title:  "Welcome to my blog!"
 
+categories: 
+  - post
+    
 toc: true
 toc_sticky: true
  
-date: 2020-05-25
-last_modified_at: 2020-05-25
+date: 2023-07-18
+last_modified_at: 2023-07-19
 ---
 
 # Welcome
