@@ -2,7 +2,9 @@
 layout: single
 title:  "Blog structure"
 
-categories: posts, blog
+categories: 
+  - post
+  - blog
 ---
 
 블로그의 주요 구조를 적는 문서입니다.
