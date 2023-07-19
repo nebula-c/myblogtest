@@ -4,14 +4,14 @@ title: Blog
 permalink: /blog/
 ---
 
-태그로 보기 (View with Tag) : [Link](/tags/)
 
 
 <ul>
-  {% for blog in site.blog %}
+  {% for posts in site.posts %}
     <li>
-      test text
-      <a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a>
+      {% if post.categories contains "blog" %}
+        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
